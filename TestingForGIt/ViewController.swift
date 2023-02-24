@@ -9,9 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var nameOoutlet: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+      
+        nameOoutlet.text = "This is Abdul Mottaleb"
     }
 
 
